@@ -1,0 +1,112 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+header .c-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .title {
+  font-weight: 600;
+}
+
+header .c-header .fa-solid {
+  margin-left: 15px;
+}
+
+.text-1 {
+  padding: 40px 20px;
+  text-align: left;
+  color: #011526;
+}
+
+.text-1 h1 {
+  font-size: 28px;
+}
+
+.text-1 p {
+  font-size: 18px;
+}
+
+.text-1 #click-for-expand {
+  color: #011526;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-1 .text-part-2 {
+  display: none;
+  font-size: 18px;
+}
+
+.text-1 .b-github {
+  background: #011526;
+  padding: 10px 30px;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+
+.avise {
+  padding: 15px 20px;
+}
+
+.avise p {
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 60%;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.presentation .content {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 90px 15px;
+}
+
+.presentation h1 {
+  font-size: 18px;
+}
+
+.presentation p {
+  font-size: 15px;
+}
+
+.presentation .presentation-bg {
+  position: absolute;
+  background-image: url('/images/pages/pexels-danny-meneses-340146-943096.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(40%);
+  width: 100%;
+  height: 100%;
+}
